@@ -9,7 +9,7 @@
 	<!-- MI CSS -->
 	<link rel="stylesheet" href="css/estilo.css"> 
 </head>
-<body class="container">
+<body class="container-fluid">
 	<header class="row">
 		<img class="col-md-8 col-sn-12" src="Assets/Img/EcoPlex.png" alt="Logo">
 		<div class="col-md-4">
@@ -64,8 +64,37 @@
       </div>
     </nav>
 
+    <!-- INCLUYENDO UN CAROUSEL DE BS -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Assets/Img/EcoPlex.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 	<main class="row">
-		<img class="col-md-12" src="" alt="Imágen">
+		<!-- <img class="col-md-12" src="" alt="Imágen"> -->
 		<p class="col-md-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facilis maxime commodi neque sint ad ullam unde dolorum, dicta, modi fuga ea, porro et numquam, doloribus qui quas rerum laudantium Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Voluptate voluptatibus saepe ipsum laudantium itaque illo? Rerum impedit amet harum, vitae consectetur! Quis et nemo ullam! Quidem magni rem deserunt nihil?</p>
 	</main>
 
